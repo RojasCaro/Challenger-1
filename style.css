@@ -1,0 +1,54 @@
+body{
+    background:linear-gradient(#b1caff,#e0b1ff ); 
+}
+
+header{
+    margin: 15px;
+    padding: 10px 0;
+}
+
+main{
+    width: 940px;
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+textarea{
+    position: relative;
+    font-size: 1.5em;
+    margin-right: 60px;
+    box-sizing: border-box;
+    background-color: #ffffff4d;
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.mensaje{
+    background-image: url(Imagenes/Muñeco.png);
+    background-size:100%;  
+}
+
+
+button{
+    font-family: 'Montserrat', sans-serif; 
+    width: 40%;
+    padding: 15px 0;
+    line-height:normal;
+    text-align: center;
+    letter-spacing: normal;
+    background: #490964;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px 40px 20px;
+    font-size: 1em;
+ 
+}
+
+button:hover{
+    transition: 1s all;
+    cursor:pointer;
+    transform: scale(1.2);
+}
